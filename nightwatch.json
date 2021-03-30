@@ -1,5 +1,7 @@
 {
     "src_folders" : ["tests"],
+    "globals_path":"",
+    "page_objects_path":["pages"],
 
     "webdriver" : {
         "start_process" : true,
@@ -9,6 +11,7 @@
 
     "test_settings" : {
         "default" : {
+            "launch_url" : "https://ultimateqa.com/",
             "desiredCapabilities" : {
                 "browserName" : "chrome"
             }

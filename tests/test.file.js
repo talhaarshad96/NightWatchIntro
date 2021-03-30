@@ -1,4 +1,5 @@
-module.exports = {
+ 
+ module.exports ={
     'Filling out form' : (browser) => {
         browser.url('https://ultimateqa.com/filling-out-forms/')
         .waitForElementVisible('body',1000)
