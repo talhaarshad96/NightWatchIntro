@@ -1,3 +1,6 @@
+
+const fs= require('fs')
+
 module.exports = {
     
     before:(done)=>{
@@ -24,4 +27,13 @@ module.exports = {
             done();
         
     },
+
+    reporter: (result, done) => {
+        fs.writeFile('testresults.json', JSON.stringify(result,null,'\t'),(err) => {
+            if(err) throw err;
+
+            console.log('report saved')
+            done();
+        })
+    }
 }

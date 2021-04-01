@@ -1,5 +1,6 @@
 const elements = {
-    postTitle: '#post-6917 h2'
+    //postTitle: '#post-6917 h2'
+    postTitle :'a[href="//ultimateqa.com/applitools-bugs-and-test-steps/"]'
 };
 
 const commands = [

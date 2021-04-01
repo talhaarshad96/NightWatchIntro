@@ -1,0 +1,83 @@
+{
+	"passed": 2,
+	"failed": 0,
+	"errors": 0,
+	"skipped": 0,
+	"tests": 0,
+	"assertions": 2,
+	"errmessages": [],
+	"modules": {
+		"debugging.tests": {
+			"reportPrefix": "CHROME_89.0.4389.114_Mac_OS_X_",
+			"assertionsCount": 2,
+			"lastError": null,
+			"skipped": [],
+			"time": "6.549",
+			"completed": {
+				"should find results when searching for applitools": {
+					"time": "6.549",
+					"assertions": [
+						{
+							"message": "Testing if the URL contains \u001b[0;33m'/?s'\u001b[0m \u001b[0;90m(6ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Testing if the URL contains \u001b[0;33m'/?s'\u001b[0m \u001b[0;90m(6ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Passed [equal]: Applitools Bugs and Test Steps == Applitools Bugs and Test Steps",
+							"stackTrace": "",
+							"fullMsg": "Passed [equal]: Applitools Bugs and Test Steps == Applitools Bugs and Test Steps",
+							"failure": false
+						}
+					],
+					"passed": 2,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 2,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"should find results when searching for applitools": {
+							"time": "6.549",
+							"assertions": [
+								{
+									"message": "Testing if the URL contains \u001b[0;33m'/?s'\u001b[0m \u001b[0;90m(6ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if the URL contains \u001b[0;33m'/?s'\u001b[0m \u001b[0;90m(6ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [equal]: Applitools Bugs and Test Steps == Applitools Bugs and Test Steps",
+									"stackTrace": "",
+									"fullMsg": "Passed [equal]: Applitools Bugs and Test Steps == Applitools Bugs and Test Steps",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 6549
+						}
+					},
+					"timeMs": 6549
+				}
+			},
+			"errmessages": [],
+			"testsCount": 1,
+			"skippedCount": 0,
+			"failedCount": 0,
+			"errorsCount": 0,
+			"passedCount": 2,
+			"group": "",
+			"modulePath": "/Users/tarshad/Documents/Projects/NightWatchIntro/tests/debugging.tests.js",
+			"tests": 1,
+			"failures": 0,
+			"errors": 0
+		}
+	}
+}
