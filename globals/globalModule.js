@@ -1,4 +1,4 @@
-
+const Mailer = require('../tests/Mailer.js');
 const fs= require('fs')
 
 module.exports = {
@@ -10,6 +10,8 @@ module.exports = {
 
     after:(done)=>{
         console.log('after')
+        const mailerObj = new Mailer();
+        mailerObj.sendMail()
         done();
     },
 
@@ -31,7 +33,6 @@ module.exports = {
     reporter: (result, done) => {
         fs.writeFile('testresults.json', JSON.stringify(result,null,'\t'),(err) => {
             if(err) throw err;
-
             console.log('report saved')
             done();
         })

@@ -1,70 +1,82 @@
 {
-	"passed": 2,
+	"passed": 3,
 	"failed": 0,
 	"errors": 0,
 	"skipped": 0,
 	"tests": 0,
-	"assertions": 2,
+	"assertions": 3,
 	"errmessages": [],
 	"modules": {
-		"debugging.tests": {
-			"reportPrefix": "CHROME_89.0.4389.114_Mac_OS_X_",
-			"assertionsCount": 2,
+		"Google": {
+			"reportPrefix": "CHROME_89.0.4389.128_Mac_OS_X_",
+			"assertionsCount": 3,
 			"lastError": null,
 			"skipped": [],
-			"time": "6.549",
+			"time": "3.950",
 			"completed": {
-				"should find results when searching for applitools": {
-					"time": "6.549",
+				"Google Advanced Search, Talha Arshad": {
+					"time": "3.950",
 					"assertions": [
 						{
-							"message": "Testing if the URL contains \u001b[0;33m'/?s'\u001b[0m \u001b[0;90m(6ms)\u001b[0m",
+							"message": "Query searched is Talha Arshad \u001b[0;90m(7ms)\u001b[0m",
 							"stackTrace": "",
-							"fullMsg": "Testing if the URL contains \u001b[0;33m'/?s'\u001b[0m \u001b[0;90m(6ms)\u001b[0m",
+							"fullMsg": "Query searched is Talha Arshad \u001b[0;90m(7ms)\u001b[0m",
 							"failure": false
 						},
 						{
-							"message": "Passed [equal]: Applitools Bugs and Test Steps == Applitools Bugs and Test Steps",
+							"message": "Element <#searchform input[name=\"q\"][value=\"Talha Arshad\"]> was visible after 18 milliseconds.",
 							"stackTrace": "",
-							"fullMsg": "Passed [equal]: Applitools Bugs and Test Steps == Applitools Bugs and Test Steps",
+							"fullMsg": "Element <#searchform input[name=\"q\"][value=\"Talha Arshad\"]> was visible after 18 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Yes, Query Visible \u001b[0;90m(12ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Yes, Query Visible \u001b[0;90m(12ms)\u001b[0m",
 							"failure": false
 						}
 					],
-					"passed": 2,
+					"passed": 3,
 					"errors": 0,
 					"failed": 0,
 					"skipped": 0,
-					"tests": 2,
+					"tests": 3,
 					"steps": [],
 					"stackTrace": "",
 					"testcases": {
-						"should find results when searching for applitools": {
-							"time": "6.549",
+						"Google Advanced Search, Talha Arshad": {
+							"time": "3.950",
 							"assertions": [
 								{
-									"message": "Testing if the URL contains \u001b[0;33m'/?s'\u001b[0m \u001b[0;90m(6ms)\u001b[0m",
+									"message": "Query searched is Talha Arshad \u001b[0;90m(7ms)\u001b[0m",
 									"stackTrace": "",
-									"fullMsg": "Testing if the URL contains \u001b[0;33m'/?s'\u001b[0m \u001b[0;90m(6ms)\u001b[0m",
+									"fullMsg": "Query searched is Talha Arshad \u001b[0;90m(7ms)\u001b[0m",
 									"failure": false
 								},
 								{
-									"message": "Passed [equal]: Applitools Bugs and Test Steps == Applitools Bugs and Test Steps",
+									"message": "Element <#searchform input[name=\"q\"][value=\"Talha Arshad\"]> was visible after 18 milliseconds.",
 									"stackTrace": "",
-									"fullMsg": "Passed [equal]: Applitools Bugs and Test Steps == Applitools Bugs and Test Steps",
+									"fullMsg": "Element <#searchform input[name=\"q\"][value=\"Talha Arshad\"]> was visible after 18 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Yes, Query Visible \u001b[0;90m(12ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Yes, Query Visible \u001b[0;90m(12ms)\u001b[0m",
 									"failure": false
 								}
 							],
-							"tests": 2,
-							"passed": 2,
+							"tests": 3,
+							"passed": 3,
 							"errors": 0,
 							"failed": 0,
 							"skipped": 0,
 							"steps": [],
 							"stackTrace": "",
-							"timeMs": 6549
+							"timeMs": 3950
 						}
 					},
-					"timeMs": 6549
+					"timeMs": 3950
 				}
 			},
 			"errmessages": [],
@@ -72,9 +84,9 @@
 			"skippedCount": 0,
 			"failedCount": 0,
 			"errorsCount": 0,
-			"passedCount": 2,
+			"passedCount": 3,
 			"group": "",
-			"modulePath": "/Users/tarshad/Documents/Projects/NightWatchIntro/tests/debugging.tests.js",
+			"modulePath": "/Users/tarshad/Documents/Projects/NightWatchIntro/tests/Google.js",
 			"tests": 1,
 			"failures": 0,
 			"errors": 0
