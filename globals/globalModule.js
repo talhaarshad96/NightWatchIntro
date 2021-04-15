@@ -10,8 +10,10 @@ module.exports = {
 
     after:(done)=>{
         console.log('after')
-        const mailerObj = new Mailer();
+        const mailerObj = new Mailer(); //
         mailerObj.sendMail()
+        .then((result) => console.log('Email sent...', result))
+        .catch((error) => console.log(error.message));
         done();
     },
 

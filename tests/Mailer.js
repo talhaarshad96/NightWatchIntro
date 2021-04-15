@@ -1,3 +1,4 @@
+
 const nodemailer = require('nodemailer');
 const { google } = require('googleapis');
 
@@ -14,7 +15,12 @@ const oAuth2Client = new google.auth.OAuth2(
 );
 oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
 
-async function sendMail() {
+
+
+class Mailer
+{
+
+async sendMail() {
   try {
     const accessToken = await oAuth2Client.getAccessToken();
 
@@ -44,7 +50,12 @@ async function sendMail() {
     return error;
   }
 }
+}
 
-sendMail()
-  .then((result) => console.log('Email sent...', result))
-  .catch((error) => console.log(error.message));
+// sendMail()
+//   .then((result) => console.log('Email sent...', result))
+//   .catch((error) => console.log(error.message));
+
+
+
+module.exports = Mailer;

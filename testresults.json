@@ -1,10 +1,10 @@
 {
-	"passed": 3,
+	"passed": 6,
 	"failed": 0,
 	"errors": 0,
 	"skipped": 0,
 	"tests": 0,
-	"assertions": 3,
+	"assertions": 6,
 	"errmessages": [],
 	"modules": {
 		"Google": {
@@ -12,15 +12,15 @@
 			"assertionsCount": 3,
 			"lastError": null,
 			"skipped": [],
-			"time": "3.950",
+			"time": "4.202",
 			"completed": {
 				"Google Advanced Search, Talha Arshad": {
-					"time": "3.950",
+					"time": "4.202",
 					"assertions": [
 						{
-							"message": "Query searched is Talha Arshad \u001b[0;90m(7ms)\u001b[0m",
+							"message": "Query searched is Talha Arshad \u001b[0;90m(6ms)\u001b[0m",
 							"stackTrace": "",
-							"fullMsg": "Query searched is Talha Arshad \u001b[0;90m(7ms)\u001b[0m",
+							"fullMsg": "Query searched is Talha Arshad \u001b[0;90m(6ms)\u001b[0m",
 							"failure": false
 						},
 						{
@@ -45,12 +45,12 @@
 					"stackTrace": "",
 					"testcases": {
 						"Google Advanced Search, Talha Arshad": {
-							"time": "3.950",
+							"time": "4.202",
 							"assertions": [
 								{
-									"message": "Query searched is Talha Arshad \u001b[0;90m(7ms)\u001b[0m",
+									"message": "Query searched is Talha Arshad \u001b[0;90m(6ms)\u001b[0m",
 									"stackTrace": "",
-									"fullMsg": "Query searched is Talha Arshad \u001b[0;90m(7ms)\u001b[0m",
+									"fullMsg": "Query searched is Talha Arshad \u001b[0;90m(6ms)\u001b[0m",
 									"failure": false
 								},
 								{
@@ -73,10 +73,10 @@
 							"skipped": 0,
 							"steps": [],
 							"stackTrace": "",
-							"timeMs": 3950
+							"timeMs": 4202
 						}
 					},
-					"timeMs": 3950
+					"timeMs": 4202
 				}
 			},
 			"errmessages": [],
